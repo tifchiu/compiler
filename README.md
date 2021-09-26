@@ -1,2 +1,2 @@
 # C Compiler
-This simple compiler translates C code into MIPS assembly. `states.txt` represents a finite state machine for which the main method in `MIPSgen.cc` constructs a tree where every node is a token from the given C code.
+This simple compiler processes C code through a Finite State Machine, and translates it into MIPS assembly. `states.txt` represents the FSM for which the driver code in `MIPSgen.cc` constructs a tree where every node is a token from the given C code.
